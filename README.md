@@ -17,6 +17,14 @@
 - O programa irá simular uma batalha entre o jogador e um monstro que será escolhido aleatoriamente 
      
 -- Ver a tabela de classes.
+### Simulação da batalha:
+- O primeiro passo é o cálculo da iniciativa.
+
+-- Esse cálculo é dado pela seguinte fómula: Rola-se um dado de 10 faces + fator de agilidade.
+
+-- O Maior valor entre monstro e herói inicia o ataque.
+
+-- Caso o valor seja igual, repete-se o teste até que alguem ganhe.
 
 
 

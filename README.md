@@ -56,9 +56,31 @@
      -- Cada linha deve seguir o formato:
 
           --- Data Da partida;heroi escolhido;PERDEU[ou]GANHOU;monstro enfrentado;quantidadeDeRodadas;
-          
+
                ---- ex: 14/11/2023;Guerreiro;GANHOU;Morto Vivo;12
 
+## Programa De Relatórios
+- Esse programa será responsável por gerar relatórios de um jogador.
+
+- Ele deverá iniciar perguntando o nickname do jogador.
+
+- Após ele deverá procurar o arquivo com o nome nickname.csv na pasta "temp".
+
+- Crie uma classe para representar cada linha do arquivo e adicione-as a uma estrutura de dados. ArrayList, Linkedlist, etc.
+
+- Imprima na tela dados como:
+     Heroi mais jogado.
+     Monstro mais enfrentado.
+     Quantiadade total de Pontos. Sendo que a cada batalha a quantidade de pontos é dada por 100 - quantiadeDeRodadas.
+     Pode imprimir quais dados achar relevate.
+
+
+## Importante!!!!
+- Você deve utilizar:
+
+     -- Polimorfismo (Pode utilizar Classes abstratas ou Interfaces)
+     -- Exceptions (Dica: utilize exceptions quando estiver lendo dados do teclado).
+     -- Api de Stream do Java 8.
 
 
 
@@ -66,30 +88,3 @@
 
 
 
-
-
-
-
--- Obs. O projeto pode ser o mais simples possível, um CRUD, um conversor de medidas , etc.
-
-- Criar testes unitários para métodos utilizando 
-     - JUNIT 
-    -  MOCKITO0 .
-    - TESTContainers (Opcional)
-
-- Expor o health check do seu projeto com o Actuator.
-- Exportar métricas do seu projeto para o formato do Prometheus utilizando o micrometer. 
-- Exportar LOGs do seu projeto para alguma ferramenta de logs. (Ex. Papertrail)  
-- Exportar dados do seu projeto para o Zipkin. 
-- Criar Script no terraform em qualquer provedor que crie apenas uma máquina virtual de qualquer formato. Esse script deve possuir 1 arquivo main, um arquivo de variáveis e um arquivo de outputs. 
-
-- Criar um pipeline de build do seu projeto no Gitlab. 
-# Grupos.
-- Podem ser feitos em grupos de até 5 participantes.
-# Regras de entrega.
-
-- Projeto deve estar versionado em alguma ferramenta de versionamento.(Github, bitbuck,etc.). 
-- Projeto deve estar público.
-- Deve ser entregue o link para o projeto.
-- Na raiz do projeto deve ter arquivos de imagem com printscreens do zipking rodando.
-- Todos devem postar o link para o projeto no Moodle. Aqueles que fizerem em grupo colocar no README do projeto o nome do grupo.

@@ -79,7 +79,10 @@
 - Você deve utilizar:
 
      -- Polimorfismo (Pode utilizar Classes abstratas ou Interfaces)
-     -- Exceptions (Dica: utilize exceptions quando estiver lendo dados do teclado).
+
+     -- Exceptions (Dica: utilize exceptions quando estiver lendo dados 
+     do teclado).
+     
      -- Api de Stream do Java 8.
 
 

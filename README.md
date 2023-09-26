@@ -3,7 +3,22 @@
 
 - Sua tarefa será desenvolver um jogo chamado Medieval Battle.
 
--- O jogo é baseado em turno e consiste em simular batalhas entre personagens hérois e monstros.
+-- O jogo é baseado em turnos e consiste em simular batalhas entre personagens hérois e monstros.
+
+
+-- Seu jogo consiste em 2 programas.
+
+-- O primeiro é o principal onde toda a simulação de batalhas ocorrerá.
+-- O segundo servirá para ler os logs e informar a pontuação.
+
+
+## Porgrama Principal
+- Seu programa deve inciar perguntando o nickname do jogador e qual classe de herói ele deseja escolher.
+- O programa irá simular uma batalha entre o jogador e um monstro que será escolhido aleatoriamente 
+     -- Ver a tabela de classes.
+
+
+
 
 
 -- Obs. O projeto pode ser o mais simples possível, um CRUD, um conversor de medidas , etc.

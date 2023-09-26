@@ -15,7 +15,8 @@
 ## Porgrama Principal
 - Seu programa deve inciar perguntando o nickname do jogador e qual classe de herói ele deseja escolher.
 - O programa irá simular uma batalha entre o jogador e um monstro que será escolhido aleatoriamente 
-     -- Ver a tabela de classes.
+     
+-- Ver a tabela de classes.
 
 
 

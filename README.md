@@ -1,7 +1,10 @@
 # Projeto de Conclusão de disciplina.
-### Devops e entrega contínua.
+### Fundamentos de Desenvolvimento JAVA.
 
-- Criar um projeto com Springboot expondo algumas APIS. 
+- Sua tarefa será desenvolver um jogo chamado Medieval Battle.
+-- O jogo é baseado em turno e consiste em simular batalhas entre personagens hérois e monstros.
+
+
 -- Obs. O projeto pode ser o mais simples possível, um CRUD, um conversor de medidas , etc.
 
 - Criar testes unitários para métodos utilizando 

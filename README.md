@@ -16,9 +16,7 @@
 - Seu programa deve inciar perguntando o nickname do jogador e qual classe de herói ele deseja escolher.
 - O programa irá simular uma batalha entre o jogador e um monstro que será escolhido aleatoriamente 
      
--- Ver a tabela de classes. <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />Aqui!</a>
+-- Ver a tabela de classes. <a href="https://github.com/leoinfnet/AT_JAVA_1_2023/blob/main/tabelaPersonagens.png.png" target="_blank">Aqui!</a>
 
 ### Simulação da batalha:
 #### O primeiro passo é o cálculo da iniciativa.

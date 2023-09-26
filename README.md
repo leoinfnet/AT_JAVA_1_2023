@@ -12,19 +12,32 @@
 -- O segundo servirá para ler os logs e informar a pontuação.
 
 
-## Porgrama Principal
+## Programa Principal
 - Seu programa deve inciar perguntando o nickname do jogador e qual classe de herói ele deseja escolher.
 - O programa irá simular uma batalha entre o jogador e um monstro que será escolhido aleatoriamente 
      
 -- Ver a tabela de classes.
 ### Simulação da batalha:
-- O primeiro passo é o cálculo da iniciativa.
+#### O primeiro passo é o cálculo da iniciativa.
 
 -- Esse cálculo é dado pela seguinte fómula: Rola-se um dado de 10 faces + fator de agilidade.
 
 -- O Maior valor entre monstro e herói inicia o ataque.
 
 -- Caso o valor seja igual, repete-se o teste até que alguem ganhe.
+
+#### O segundo passo é o ataque.
+
+-- Calcula-se o fator de ataque que é dado por: dado de 10 faces (1d10) + agilidade + força.
+
+-- Calcula-se o fator de defesa que é dado por: dado de 10 faces (1d10) + fator de agilidade + fator de defesa.
+
+-- Se o fator de ataque for maior que o fator de defesa calcula-se o dano,senão nada acontece.
+
+#### Cálculo de Dano.
+
+
+
 
 
 

@@ -45,11 +45,16 @@
 - A batalha se encerra quando os pontos de vida de algum personagem chegue a zero ou menos
 
 ### Gravação de LOG:
-- Você pode escrever o que quiser na tela do console que te ajude a depurar o problema, esse passo é opcional.
+- Você pode escrever o que quiser na tela do console que te ajude a depurar o programa. Esse passo é opcional.
 - Ao final da execução da batalha você DEVE: 
      -- Gravar um arquivo texto numa pasta chamad "temp" no mesmo diretório do seu programa.
      -- O nome desse arquivo deve seguir o padrão: nicknameDoJogador.csv ex: leogloria.csv 
-      
+     -- Cada linha desse arquivo representa uma batalha relacionada áquele jogador. 
+     -- Cada linha deve seguir o formato:
+          --- Data Da partida;heroi escolhido;PERDEU[ou]GANHOU;monstro enfrentado;quantidadeDeRodadas;
+               ---- ex: 14/11/2023;Guerreiro;GANHOU;Morto Vivo;12
+     
+
 
 
 

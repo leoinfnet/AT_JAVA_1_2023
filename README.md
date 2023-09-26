@@ -36,6 +36,16 @@
 
 #### Cálculo de Dano.
 
+-- Rola-se o dado com o fator de dano do personagem(monstro ou heroi) + pontos de força. 
+
+-- O resultado é subtraído dos pontos de vida do atacado.
+
+### Finalização da batalha.
+
+- A batalha se encerra quando os pontos de vida de algum personagem chegue a zero ou menos.
+
+
+
 
 
 
